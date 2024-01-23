@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructuras Informáticas</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        #backToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        img {
+            display: block;
+            margin: auto; 
+            max-width: 100%; 
+            height: auto; 
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 20px;
+            padding-left: 5%;
+            padding-right: 5%;
+            font-weight: bold;
+        }
+
+        h1{
+            color: white;
+            font-size: 45px;
+        }
+
+        ul {
+            display: inline-block;
+            padding: 0px 20px;
+        }
+
+        li{
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: aqua;
+        }
+
+        body {
+            background-color: rgb(151, 195, 201);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5); 
+            
+        }
+
+        h1{
+            color: black;
+            margin: 0; 
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+        <nav>
+            <h1><img src="Images/logo.png" width="250px" alt=""></h1>
+            <ul>
+                <li><a href="#on-site">On-Site</a> </li>
+                <li><a href="#IaaS">IaaS</a></li>
+                <li><a href="#PaaS">PaaS</a></li>
+                <li><a href="#SaaS">SaaS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <button onclick="redirectToSection('on-site')">Ir a On-Site</button>
+        <button onclick="redirectToSection('IaaS')">Ir a IaaS</button>
+        <button onclick="redirectToSection('PaaS')">Ir a PaaS</button>
+        <button onclick="redirectToSection('SaaS')">Ir a SaaS</button>
+    </div>
+    <section>
+        <h1>Estructuras Informáticas</h1>
+    </section>
+    
+    <section>
+        <p>Las "estructuras informáticas" se refieren a la organización y disposición de los componentes en un sistema informático. Estas estructuras son fundamentales para el diseño y funcionamiento de cualquier sistema computacional, ya sea un simple dispositivo o una red compleja. Aquí hay una definición general:</p>
+        <p>Las estructuras informáticas abarcan una amplia variedad de conceptos y componentes, que incluyen:</p>
+        <p><b>Arquitectura de Hardware:</b>La disposición y conexión de los componentes físicos de un sistema, como la unidad central de procesamiento (CPU), la memoria, los dispositivos de entrada/salida y los dispositivos de almacenamiento.</p>
+        <p><b>Arquitectura de Software:</b>La organización y diseño lógico de los programas y sistemas operativos que se ejecutan en el hardware. Esto incluye la estructura de los programas, la gestión de memoria, el manejo de datos y la interacción entre distintas partes del software.</p>
+        <p><b>Redes de Computadora:</b>La disposición y conexión de dispositivos informáticos a través de redes, ya sea local o globalmente. Esto abarca desde configuraciones simples, como redes locales, hasta estructuras más complejas, como la arquitectura de Internet.</p>
+        <p><b>Sistemas Operativos:</b>La estructura interna de los sistemas operativos que gestiona los recursos del hardware y proporciona servicios a las aplicaciones. Esto incluye la gestión de procesos, archivos, memoria y dispositivos.</p>
+        <p><b>Base de Datos:</b>La organización y estructura de las bases de datos, que define cómo se almacenan, organizan y recuperan los datos. Esto incluye el diseño de tablas, relaciones y consultas.</p>
+        <p><b>Algoritmos y Estructuras de Datos:</b>La organización y diseño de algoritmos y estructuras de datos, que son fundamentales para el desarrollo eficiente de software. Esto abarca cómo se almacenan y manipulan los datos, así como los pasos lógicos para realizar operaciones específicas.</p>
+        <img src="Images/img deber.jpg" width="500px" alt="">
+    </section>
+    
+    <section id="on-site">
+        <h1>On-site</h1>
+        <p>El término "on-site applications" se refiere a aplicaciones informáticas que se implementan, ejecutan y operan directamente en la infraestructura local de un usuario o una organización, en lugar de depender de recursos externos o servicios basados en la nube. Estas aplicaciones están instaladas en los dispositivos o servidores locales y se ejecutan sin la necesidad de una conexión constante a Internet para su funcionamiento.</p>
+        <p>Las características clave de las on-site applications incluyen:</p><br>
+        <p><b>Localización física:</b> Las on-site applications se instalan y ejecutan en hardware local, ya sea en dispositivos individuales o en servidores de una red interna de una organización. Esto implica que los datos y la ejecución del software están bajo el control directo del usuario o la entidad que administra el sistema.</p>
+        <p><b>Independencia de la nube:</b> A diferencia de las aplicaciones basadas en la nube, las on-site applications no dependen de servicios remotos para su funcionamiento continuo. No requieren una conexión constante a Internet y pueden operar de manera autónoma en el entorno local.</p>
+        <p><b>Control directo:</b> Los usuarios tienen un mayor control sobre las on-site applications, ya que pueden gestionar su implementación, configuración y mantenimiento directamente en sus propias instalaciones. Esto puede ser beneficioso para aquellos que buscan mantener un mayor nivel de seguridad o control sobre sus datos y operaciones.</p>
+        <p><b>Personalización local:</b> La instalación de on-site applications permite la adaptación y personalización específica para satisfacer las necesidades particulares de un usuario o una organización. Pueden integrarse más estrechamente con sistemas locales y ajustarse según los requisitos específicos del entorno.</p>
+        <p><b>Seguridad y privacidad:</b>Al operar localmente, las on-site applications pueden proporcionar un mayor nivel de seguridad y privacidad, ya que los datos y procesos se mantienen dentro del entorno controlado por el usuario. Esto puede ser crucial para aquellos que manejan información sensible o confidencial.</p>
+        <img src="Images/On-Site.png" width="500px" alt="">
+    </section>
+
+    <section id="IaaS">
+        <h1>IaaS</h1>
+        <p>Infrastructure as a Service, o IaaS, es un modelo de servicios en la nube que proporciona a los usuarios acceso a recursos informáticos fundamentales a través de Internet. En el modelo IaaS, los proveedores de servicios en la nube ofrecen una infraestructura virtualizada compuesta por recursos de hardware, como capacidad de procesamiento, almacenamiento y redes, que pueden ser provisionados y gestionados de manera flexible.</p>
+        <p>Características</p>
+        <p><b>Recursos escalables: </b>IaaS permite la escalabilidad tanto hacia arriba como hacia abajo, lo que significa que los usuarios pueden aumentar o reducir la capacidad de los recursos según sus necesidades. Esto proporciona flexibilidad y eficiencia en el uso de los recursos. <br><br>
+
+            <b>Virtualización: </b>La infraestructura en IaaS se implementa mediante tecnologías de virtualización. Esto implica la creación de máquinas virtuales (VM) que simulan entornos de hardware y permiten la ejecución de sistemas operativos y aplicaciones. <br><br>
+            
+            <b>Autoservicio: </b>Los usuarios pueden aprovisionar y gestionar recursos de manera autónoma a través de interfaces web o APIs (Interfaces de Programación de Aplicaciones). Esto reduce la dependencia de la intervención humana en el proceso de implementación y gestión. <br><br>
+            
+            <b>Pago por uso: </b>Los usuarios pagan solo por los recursos que consumen, lo que hace que el modelo sea rentable. Este enfoque contrasta con la adquisición de hardware físico, donde se debe invertir en recursos fijos independientemente del uso real. <br><br>
+            
+            <b>Ubicuidad y accesibilidad: </b>Los recursos en la nube IaaS están disponibles a través de Internet, lo que permite a los usuarios acceder a ellos desde cualquier lugar con conexión a la red. Esto facilita la colaboración y el acceso remoto a la infraestructura. <br><br>
+            
+            <b>Gestión descentralizada: </b>La gestión y mantenimiento de la infraestructura subyacente, como servidores físicos y dispositivos de almacenamiento, recae en el proveedor de servicios en la nube. Los usuarios se centran en la gestión de sus aplicaciones y datos. <br><br>
+            </p>
+            <img src="Images/IaaS.jpeg" width="500px" alt="">
+    </section>
+
+    <section id="PaaS">
+        <h1>PaaS</h1>
+        <p>La Plataforma como Servicio, o PaaS, es un modelo de servicios en la nube que proporciona a los desarrolladores un entorno completo y gestionado para el desarrollo, implementación y mantenimiento de aplicaciones. A diferencia de Infrastructure as a Service (IaaS), donde se proporcionan recursos de infraestructura, en PaaS se ofrece una plataforma que incluye herramientas, servicios y entornos de ejecución para facilitar el ciclo de vida completo de desarrollo de aplicaciones. <br>
+            Características clave de PaaS: <br>
+            <b>Entorno de desarrollo: </b>PaaS proporciona un entorno completo de desarrollo que incluye herramientas, bibliotecas y servicios necesarios para construir aplicaciones. Los desarrolladores pueden centrarse en la lógica de la aplicación sin preocuparse por la gestión de la infraestructura subyacente. <br><br>
+
+            <b>Gestión de recursos automática: </b>La infraestructura subyacente, como servidores, redes y sistemas operativos, es gestionada automáticamente por el proveedor de PaaS. Los desarrolladores no tienen que preocuparse por tareas de administración, como la configuración de servidores o el escalado de recursos. <br><br>
+
+            <b>Escalabilidad automática: </b>PaaS ofrece la capacidad de escalar automáticamente recursos en función de la demanda de la aplicación. Los desarrolladores no tienen que preocuparse por la gestión manual del escalado, ya que la plataforma se encarga de ello de manera dinámica. <br><br>
+
+            <b>Despliegue y hosting simplificados: </b>PaaS facilita el despliegue de aplicaciones mediante la automatización de procesos. Los desarrolladores pueden cargar su código y dejar que la plataforma se encargue de la implementación, las actualizaciones y el mantenimiento. <br><br>
+
+            <b>Servicios integrados: </b>PaaS proporciona servicios integrados que van más allá de la infraestructura básica. Esto puede incluir servicios de bases de datos, servicios de mensajería, servicios de autenticación, entre otros, que facilitan la implementación de funciones complejas en las aplicaciones. <br><br>
+
+            <b>Colaboración y desarrollo ágil: </b>PaaS facilita la colaboración entre equipos de desarrollo al proporcionar un entorno centralizado y compartido. Además, favorece las prácticas de desarrollo ágil y la entrega continua (DevOps) al automatizar muchos aspectos del ciclo de vida de desarrollo. <br><br>
+            <img src="Images/PaaS.jpg" width="500px" alt="">
+        </p>
+    </section>
+    
+    <section id="SaaS">
+        <h1>SaaS</h1>
+        <p>
+            Software como Servicio, o SaaS, es un modelo de distribución de software en el cual las aplicaciones son proporcionadas por un proveedor de servicios en la nube a través de Internet. En lugar de adquirir y mantener software tradicionalmente instalado en los dispositivos locales, los usuarios pueden acceder y utilizar las aplicaciones SaaS a través de navegadores web u otros clientes ligeros. Este modelo de entrega de software está diseñado para simplificar la implementación, el mantenimiento y el acceso a las aplicaciones. <br>
+            Características clave de SaaS: <br><br>
+            <b>Acceso a través de la web: </b>Las aplicaciones SaaS se acceden a través de un navegador web estándar, lo que elimina la necesidad de instalar y mantener software en dispositivos locales. Esto facilita el acceso desde cualquier lugar con conexión a Internet. <br><br>
+
+            <b>Modelo de suscripción: </b>Los usuarios generalmente pagan por el uso del software a través de un modelo de suscripción, que puede ser mensual o anual. Esto a menudo incluye el costo de mantenimiento, actualizaciones y soporte técnico. <br><br>
+
+            <b>Actualizaciones automáticas: </b>Las actualizaciones de software son gestionadas por el proveedor de SaaS, lo que significa que los usuarios siempre tienen acceso a las últimas características y correcciones de seguridad sin tener que preocuparse por realizar actualizaciones manuales. <br><br>
+
+            <b>Escalabilidad: </b>Los servicios SaaS son escalables y pueden adaptarse a las necesidades cambiantes de los usuarios. Los proveedores de SaaS generalmente ofrecen diferentes niveles de suscripción o planes para satisfacer los requisitos específicos de cada usuario. <br><br>
+
+            <b>Gestión centralizada: </b>La administración y el mantenimiento del software, incluidos los aspectos relacionados con la seguridad y el rendimiento, son responsabilidad del proveedor de SaaS. Esto libera a los usuarios de la carga de gestionar la infraestructura subyacente. <br><br>
+
+            <b>Colaboración: </b>Muchas aplicaciones SaaS están diseñadas para facilitar la colaboración en línea entre usuarios, permitiendo compartir y editar documentos en tiempo real, realizar videoconferencias y colaborar en proyectos de manera eficiente. <br><br>
+            <img src="Images/SaaS.jpg" width="500px" alt="">
+        </p>
+    </section>
+    
+    <button id="backToTopBtn" onclick="scrollToTop()">Regresar al Inicio</button>
+
+    <script src="script.js"></script>
+
+<footer>
+    <p1> &copy; 2024 Estructuras Informáticas. Todos los derechos reservados. alvarosanchez826@gmail.com</p1>
+</footer>
+
+
+</body>
+</html>
